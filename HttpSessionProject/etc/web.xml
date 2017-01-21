@@ -36,4 +36,8 @@
   	<url-pattern>/servlet3.do</url-pattern>
   </servlet-mapping>
   
+  <listener>
+  	<listener-class>com.example.listener.SessionListener</listener-class>
+  </listener>
+  
 </web-app>
