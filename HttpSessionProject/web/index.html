@@ -2,9 +2,39 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>HttpSessionProject</title>
+<title>HttpSessionProject Tutorial</title>
 </head>
 <body>
-
+	<h1>Test getSession() no-arg</h1>
+	<form method="GET" action="servlet1.do" />
+	<br>
+	<br>
+	<br>
+	<center>
+		<input type="SUBMIT" value="Servlet One">
+	</center>
+	</form>
+	<br>
+	<br>
+	<h1>Test getSession(boolean) 1-arg</h1>
+	<form method="GET" action="servlet2.do" />
+	<br>
+	<br>
+	<br>
+	<center>
+		<input type="SUBMIT" value="Servlet Two">
+	</center>
+	</form>
+	<br>
+	<br>
+	<h1>Invalidate Session:</h1>
+	<form method="GET" action="servlet3.do" />
+	<br>
+	<br>
+	<br>
+	<center>
+		<input type="SUBMIT" value="Invalidate Session">
+	</center>
+	</form>
 </body>
 </html>
