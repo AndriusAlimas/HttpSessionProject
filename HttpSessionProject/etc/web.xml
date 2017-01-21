@@ -6,5 +6,34 @@
     <welcome-file>index.htm</welcome-file>
   </welcome-file-list>
   
+  <servlet>
+  	<servlet-name>ServletOne</servlet-name>
+  	<servlet-class>com.example.servlet.MyServlet1</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ServletTwo</servlet-name>
+  	<servlet-class>com.example.servlet.MyServlet2</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>ServletThree</servlet-name>
+  	<servlet-class>com.example.servlet.MyServlet3</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ServletOne</servlet-name>
+  	<url-pattern>/servlet1.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ServletTwo</servlet-name>
+  	<url-pattern>/servlet2.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ServletThree</servlet-name>
+  	<url-pattern>/servlet3.do</url-pattern>
+  </servlet-mapping>
   
 </web-app>
